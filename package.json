@@ -12,7 +12,8 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "set PUBLIC_URL=.&& react-scripts build && mv build docs || move build docs",
+        "build": "react-scripts build",
+        "build:docs": "set PUBLIC_URL=.&& react-scripts build && mv build docs || move build docs",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
